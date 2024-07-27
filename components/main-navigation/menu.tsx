@@ -20,13 +20,13 @@ export const Menu = () => {
           className="bg-neutral-950"
         >
           <div>
-            <div className="mx-auto max-w-7xl pb-12 pt-40">
-              <ul className="mx-auto flex justify-between">
+            <div className="mx-auto max-w-[91%] pb-12 pt-40 2xl:max-w-7xl">
+              <ul className="mx-auto flex flex-col justify-between md:flex-row">
                 {navLinks.map((link, index) => (
                   <Link
                     href={link.path}
                     key={index}
-                    className="w-full border-x py-8 text-center text-2xl text-white transition-colors hover:bg-neutral-900"
+                    className="w-full border-y border-neutral-800 py-8 text-center text-2xl text-white transition-colors hover:bg-neutral-900 md:border-x md:border-y-0"
                   >
                     {link.name}
                   </Link>

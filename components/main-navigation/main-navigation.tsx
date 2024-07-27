@@ -10,7 +10,7 @@ export const MainNavigation = () => {
   const menuCtx = useContext(MenuContext);
 
   return (
-    <nav className="absolute left-1/2 top-2 z-50 mx-auto flex w-full max-w-7xl -translate-x-1/2 items-center justify-between pt-14">
+    <nav className="absolute left-1/2 top-2 z-50 mx-auto flex w-full max-w-[91%] -translate-x-1/2 items-center justify-between pt-14 2xl:max-w-7xl">
       <Link
         href="/"
         className={cn(
