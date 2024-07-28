@@ -31,7 +31,7 @@ export function Projects() {
   return (
     <>
       <section
-        className="mx-auto mt-44 max-w-[91%] space-y-4 2xl:max-w-7xl"
+        className="mx-auto mt-24 max-w-[91%] space-y-4 md:mt-44 2xl:max-w-7xl"
         id="projects"
       >
         <h2 className="text-5xl font-medium">Featured projects</h2>

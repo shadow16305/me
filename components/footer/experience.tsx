@@ -10,7 +10,7 @@ export const Experience = () => {
     <Accordion
       type="single"
       defaultValue="item-1"
-      className="w-5/12 rounded-3xl text-white"
+      className="rounded-3xl text-white md:w-5/12"
     >
       <AccordionItem value="item-1">
         <AccordionTrigger>

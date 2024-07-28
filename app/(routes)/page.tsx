@@ -3,7 +3,6 @@ import { Hero } from "./_components/hero";
 import { Projects } from "./_components/projects/projects";
 import { Skills } from "./_components/skills";
 import { About } from "./_components/about";
-import { Footer } from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <Projects />
       <ScrollToTop />
       <About />
-      <Footer />
     </main>
   );
 }

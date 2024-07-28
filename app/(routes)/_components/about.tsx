@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export const About = () => {
   return (
-    <section className="mx-auto mt-44 flex max-w-[91%] items-center justify-between 2xl:max-w-7xl">
-      <div className="clip relative h-80 w-5/12 overflow-hidden">
+    <section
+      className="mx-auto mt-24 flex max-w-[91%] scroll-mt-44 flex-col items-center justify-between pb-12 md:mt-44 md:flex-row md:pb-24 2xl:max-w-7xl"
+      id="about"
+    >
+      <div className="clip relative h-80 w-full overflow-hidden md:w-5/12">
         <Image
           src="/images/profile.webp"
           alt="portrait"
@@ -11,7 +14,7 @@ export const About = () => {
           className="object-cover grayscale transition-transform duration-300 hover:scale-110"
         />
       </div>
-      <div className="w-1/2 space-y-4 text-neutral-600">
+      <div className="mt-4 w-full space-y-4 text-neutral-600 md:w-1/2">
         <p>
           Currently, I specialize in building robust web applications and user
           interfaces using React and Next.js. Whether it's creating responsive

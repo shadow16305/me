@@ -20,18 +20,7 @@ export const MainNavigation = () => {
       >
         Christian Abu Khalil
       </Link>
-      <div className="flex items-center gap-x-4">
-        <Link
-          href="#contact"
-          className={cn(
-            "rounded-3xl bg-neutral-950 px-5 py-1.5 font-medium text-white transition-colors hover:bg-neutral-800",
-            menuCtx.open && "bg-white text-black hover:bg-neutral-300",
-          )}
-        >
-          Contact
-        </Link>
-        <Hamburger isOpen={menuCtx.open} setIsOpen={menuCtx.onOpen} />
-      </div>
+      <Hamburger isOpen={menuCtx.open} setIsOpen={menuCtx.onOpen} />
     </nav>
   );
 };

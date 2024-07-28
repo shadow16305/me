@@ -44,7 +44,7 @@ export const Menu = () => {
                   {socials.map((social) => (
                     <li key={social.text}>
                       <a href={social.link} target="_blank" rel="noreferrer">
-                        {social.icon}
+                        {social.iconLg}
                       </a>
                     </li>
                   ))}

@@ -3,7 +3,7 @@ import { skills } from "@/constants";
 export const Skills = () => {
   return (
     <section
-      className="relative z-10 mt-44 scroll-mt-44 rounded-[40px] bg-neutral-950 py-24 text-white"
+      className="relative z-10 mt-24 scroll-mt-44 rounded-[40px] bg-neutral-950 py-24 text-white md:mt-44"
       id="skills"
     >
       <div className="mx-auto max-w-[91%] 2xl:max-w-7xl">

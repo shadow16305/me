@@ -7,7 +7,6 @@ import {
   FaReact,
   FaBootstrap,
   FaNodeJs,
-  FaFigma,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import {
@@ -36,7 +35,7 @@ export const navLinks = [
   },
   {
     name: "Experience",
-    path: "#experience",
+    path: "#footer",
   },
 ];
 
@@ -44,30 +43,48 @@ export const socials = [
   {
     text: "LinkedIn",
     link: "https://www.linkedin.com/in/christian-abk/",
-    icon: (
+    iconLg: (
       <FaLinkedin
         className="text-white transition-colors hover:text-neutral-300"
         size={28}
+      />
+    ),
+    iconSm: (
+      <FaLinkedin
+        className="text-white transition-colors hover:text-neutral-300"
+        size={16}
       />
     ),
   },
   {
     text: "Telegram",
     link: "https://t.me/Shadow163",
-    icon: (
+    iconLg: (
       <FaTelegram
         className="text-white transition-colors hover:text-neutral-300"
         size={28}
+      />
+    ),
+    iconSm: (
+      <FaTelegram
+        className="text-white transition-colors hover:text-neutral-300"
+        size={16}
       />
     ),
   },
   {
     text: "Github",
     link: "https://github.com/shadow16305",
-    icon: (
+    iconLg: (
       <FaGithub
         className="text-white transition-colors hover:text-neutral-300"
         size={28}
+      />
+    ),
+    iconSm: (
+      <FaGithub
+        className="text-white transition-colors hover:text-neutral-300"
+        size={16}
       />
     ),
   },

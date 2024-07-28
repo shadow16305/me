@@ -4,6 +4,7 @@ import { cn, monaSans } from "@/lib/utils";
 import { MainNavigation } from "@/components/main-navigation/main-navigation";
 import { MenuContextProvider } from "@/context/menu-context";
 import { Menu } from "@/components/main-navigation/menu";
+import { Footer } from "@/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "Chris A.K.",
@@ -22,6 +23,7 @@ export default function RootLayout({
           <MainNavigation />
           <Menu />
           {children}
+          <Footer />
         </MenuContextProvider>
       </body>
     </html>
