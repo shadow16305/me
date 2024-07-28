@@ -1,4 +1,6 @@
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 import { Hero } from "./_components/hero";
+import { Projects } from "./_components/projects/projects";
 import { Skills } from "./_components/skills";
 
 export default function Home() {
@@ -6,6 +8,8 @@ export default function Home() {
     <main className="relative z-10 mt-2 rounded-[40px] bg-white">
       <Hero />
       <Skills />
+      <Projects />
+      <ScrollToTop />
     </main>
   );
 }
