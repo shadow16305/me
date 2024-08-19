@@ -14,11 +14,13 @@ export const Contact = () => {
             href="mailto:chris16305@gmail.com"
             className="flex items-center gap-x-2"
           >
-            {" "}
-            <span>
-              <SiGmail />
+            <SiGmail />
+            <span
+              className="pseudo-text-effect"
+              data-after="chris16305@gmail.com"
+            >
+              <span>chris16305@gmail.com</span>
             </span>
-            <span>chris16305@gmail.com</span>
           </a>
         </li>
         {socials.map((item) => (
@@ -30,7 +32,9 @@ export const Contact = () => {
               className="flex items-center gap-x-2"
             >
               <span>{item.iconSm}</span>
-              <span>{item.text}</span>
+              <span data-after={item.text} className="pseudo-text-effect">
+                <span>{item.text}</span>
+              </span>
             </a>
           </li>
         ))}
