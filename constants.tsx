@@ -195,8 +195,8 @@ export const projects = [
     github_link: "https://github.com/shadow16305/uma-lab",
     site_link: "https://uma-lab.com.ua/",
     description: {
-      p1: "At Uma-lab, a digital marketing agency, I was entrusted with the task of building their website in collaboration with a designer. The goal was to create a dynamic, visually compelling online presence that effectively communicates the agency's services and expertise.",
-      p2: "The result was a modern, engaging website that has significantly boosted Uma-lab's online visibility and client engagement. Ongoing maintenance ensures the website remains current and functional, consistently meeting the agency's evolving needs.",
+      p1: "At Uma-lab, a digital marketing agency, I was entrusted with building their website in collaboration with a designer to create a dynamic, visually compelling online presence that effectively communicates the agency’s services and expertise. This resulted in a modern, engaging website that has significantly boosted Uma-lab's online visibility and client engagement.",
+      p2: "I continue to work with Uma-lab, developing websites for their current and future clients, ensuring that each site reflects the agency’s standards for innovation and functionality while meeting the evolving needs of their clients.",
     },
     stack: "ReactJS, JavaScript, TailwindCSS, Framer-motion",
   },
@@ -208,7 +208,32 @@ export const projects = [
     site_link: "https://entertainment-web-app-weld-eight.vercel.app/",
     description: {
       p1: "A website utilizng TMDB (The movie database API), where users can browse all movies and tv shows. I'm also planning on adding a genre filter in the future.",
+      p2: null,
     },
     stack: "NextJS, TypeScript, TailwindCSS, REST API",
+  },
+  {
+    id: "project-6",
+    title: "Modality IT",
+    imgSrc: "/images/modality.webp",
+    github_link: "https://github.com/shadow16305/modality-it",
+    site_link: "https://www.modalityit.ca/",
+    description: {
+      p1: "Developed a tailored website for an IT support provider specializing in comprehensive support services for diagnostic clinics. Collaborated closely with a UX/UI designer to ensure an intuitive user experience, focusing on the unique needs of healthcare professionals. The project highlights my ability to build functional, user-centered solutions in a specialized industry.",
+      p2: null,
+    },
+    stack: "NextJS, TypeScript, TailwindCSS",
+  },
+  {
+    id: "project-7",
+    title: "Atlas Turkish Cuisine",
+    imgSrc: "/images/atlas.png",
+    github_link: "https://github.com/shadow16305/food-truck-mig",
+    site_link: "https://atlasturkishcuisine.com/",
+    description: {
+      p1: "Built a dynamic website for a Turkish restaurant, translating a UX/UI designer’s vision into a fully functional online presence. Integrated a custom contact form to enhance customer engagement, ensuring a seamless user experience and effective communication for the restaurant.",
+      p2: null,
+    },
+    stack: "ReactJS, TypeScript, TailwindCSS, Express, Vite, Node.js",
   },
 ];
