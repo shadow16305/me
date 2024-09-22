@@ -45,7 +45,7 @@ export const Experience = () => {
           <div className="space-x-2">
             <span>Uma-lab</span>
             <span className="text-sm text-neutral-400">
-              Jul 2023 - Apr 2024
+              Jul 2023 - Reccuring status
             </span>
           </div>
         </AccordionTrigger>
