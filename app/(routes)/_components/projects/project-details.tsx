@@ -137,7 +137,7 @@ export const ProjectDetails = ({
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="fixed bottom-0 left-0 h-40 w-full bg-gradient-to-b from-transparent via-white to-white md:hidden"
+                    className="fixed bottom-0 left-0 h-20 w-full bg-gradient-to-b from-transparent to-white md:hidden"
                   />
                 </div>
               </div>
