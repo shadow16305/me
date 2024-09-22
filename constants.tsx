@@ -152,6 +152,19 @@ export const skills = [
 export const projects = [
   {
     id: "project-1",
+    title: "Coderally",
+    imgSrc: "/images/coderally.jpg",
+    github_link: "https://github.com/shadow16305/coderally",
+    site_link: "https://coderally.vercel.app/",
+    description: {
+      p1: "This is a personal project I created to demonstrate my full-stack development skills. It’s a social media forum where users can engage in dynamic discussions by creating posts, commenting, and liking content. Users can also view their liked posts in a dedicated section. One of the core features is the ability for users to create and manage their own categories, similar to subreddits, allowing for organized and topic-specific discussions.",
+      p2: "Authentication is securely implemented with multiple options, including login via credentials, Google, or GitHub, using next-auth. I also integrated a rich text editor, Tiptap, enabling users to easily format their posts and comments.",
+    },
+    stack:
+      "NextJS, TypeScript, TailwindCSS, Prisma, MongoDB, NextAuth, Shadcn/RadixUI",
+  },
+  {
+    id: "project-2",
     title: "Scads",
     imgSrc: "/images/scads.png",
     github_link: "https://github.com/scads-io/frontend",
@@ -162,9 +175,8 @@ export const projects = [
     },
     stack: "NextJS, TypeScript, TailwindCSS, Redux, Shadcn/RadixUI",
   },
-
   {
-    id: "project-2",
+    id: "project-3",
     title: "Bayview",
     imgSrc: "/images/bayview.webp",
     github_link: "https://github.com/shadow16305/BayView",
@@ -174,19 +186,6 @@ export const projects = [
       p2: "The project culminated in the successful launch of three distinct websites, each receiving positive feedback from the client. The clinics reported improved user engagement and satisfaction, marking the project as a significant achievement.",
     },
     stack: "ReactJS, TypeScript, TailwindCSS, Framer-motion",
-  },
-
-  {
-    id: "project-3",
-    title: "Flowcart",
-    imgSrc: "/images/flowcart.png",
-    github_link: "https://github.com/shadow16305/flowcart",
-    site_link: "https://flowcart.vercel.app/",
-    description: {
-      p1: "A full-stack ecommerce website designed to demonstrate my capabilities in both front-end and back-end development. This project features secure user authentication, allowing for a personalized shopping experience. Users can post reviews to share their opinions and feedback on products. The website also includes a shopping cart system for managing and reviewing items before purchase, and the ability to bookmark favorite products for easy access later. In the near future, I plan to integrate an admin panel to replace the current dummyjson API,",
-      p2: null,
-    },
-    stack: "NextJS, TypeScript, TailwindCSS, MongoDB, Mongoose, Clerk, REST",
   },
   {
     id: "project-4",
@@ -202,6 +201,18 @@ export const projects = [
   },
   {
     id: "project-5",
+    title: "Flowcart",
+    imgSrc: "/images/flowcart.png",
+    github_link: "https://github.com/shadow16305/flowcart",
+    site_link: "https://flowcart.vercel.app/",
+    description: {
+      p1: "A full-stack ecommerce website designed to demonstrate my capabilities in both front-end and back-end development. This project features secure user authentication, allowing for a personalized shopping experience. Users can post reviews to share their opinions and feedback on products. The website also includes a shopping cart system for managing and reviewing items before purchase, and the ability to bookmark favorite products for easy access later. In the near future, I plan to integrate an admin panel to replace the current dummyjson API,",
+      p2: null,
+    },
+    stack: "NextJS, TypeScript, TailwindCSS, MongoDB, Mongoose, Clerk, REST",
+  },
+  {
+    id: "project-6",
     title: "Entertainment web-app",
     imgSrc: "/images/entertainment-web-app.png",
     github_link: "https://github.com/shadow16305/entertainment-web-app",
@@ -213,7 +224,7 @@ export const projects = [
     stack: "NextJS, TypeScript, TailwindCSS, REST API",
   },
   {
-    id: "project-6",
+    id: "project-7",
     title: "Modality IT",
     imgSrc: "/images/modality.webp",
     github_link: "https://github.com/shadow16305/modality-it",
@@ -225,7 +236,7 @@ export const projects = [
     stack: "NextJS, TypeScript, TailwindCSS",
   },
   {
-    id: "project-7",
+    id: "project-8",
     title: "Atlas Turkish Cuisine",
     imgSrc: "/images/atlas.png",
     github_link: "https://github.com/shadow16305/food-truck-mig",

@@ -55,7 +55,7 @@ export const ProjectDetails = ({
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="flex h-full w-full max-w-[500px] flex-col overflow-hidden bg-white dark:bg-neutral-900 sm:rounded-3xl md:h-fit md:max-h-[90%]"
+              className="flex h-full w-full max-w-[500px] flex-col overflow-hidden bg-white dark:bg-neutral-900 sm:rounded-3xl md:h-fit md:max-h-[95%]"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <Image
@@ -67,7 +67,6 @@ export const ProjectDetails = ({
                   className="h-80 w-full object-cover object-top sm:rounded-tl-lg sm:rounded-tr-lg lg:h-80"
                 />
               </motion.div>
-
               <div>
                 <div className="flex items-start justify-between p-4">
                   <div className="">
@@ -103,7 +102,7 @@ export const ProjectDetails = ({
                     </motion.a>
                   </div>
                 </div>
-                <div className="relative px-4 pt-0">
+                <div className="relative h-[420px] overflow-y-auto overflow-x-hidden px-4 pt-0 md:h-fit md:overflow-hidden">
                   <motion.p
                     layout
                     className="text-base text-neutral-600 dark:text-neutral-400"
@@ -133,6 +132,13 @@ export const ProjectDetails = ({
                     </span>{" "}
                     {active.stack}
                   </motion.div>
+                  <motion.div
+                    layout
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed bottom-0 left-0 h-40 w-full bg-gradient-to-b from-transparent via-white to-white md:hidden"
+                  />
                 </div>
               </div>
             </motion.div>
