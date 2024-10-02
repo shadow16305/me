@@ -5,6 +5,7 @@ import { MainNavigation } from "@/components/main-navigation/main-navigation";
 import { MenuContextProvider } from "@/context/menu-context";
 import { Menu } from "@/components/main-navigation/menu";
 import { Footer } from "@/components/footer/footer";
+import { GoogleAnalytics } from "@/components/google-analytics";
 
 export const metadata: Metadata = {
   title: "Chris A.K.",
@@ -18,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth text-base">
+      <GoogleAnalytics />
       <body className={cn("bg-neutral-950 font-sans", monaSans.className)}>
         <MenuContextProvider>
           <MainNavigation />
