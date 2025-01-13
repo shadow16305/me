@@ -247,4 +247,28 @@ export const projects = [
     },
     stack: "ReactJS, TypeScript, TailwindCSS, Express, Vite, Node.js",
   },
+  {
+    id: "project-9",
+    title: "Video production portfolio",
+    imgSrc: "/images/video-production.jpg",
+    github_link: "https://github.com/shadow16305/video-production-portfolio",
+    site_link: "https://inevda.com/",
+    description: {
+      p1: "I collaborated with a client on Upwork to transform their design into a fully functional and responsive website. I implemented a pixel-perfect UI to match the provided design and integrated a contact form with validation and email functionality. The site was thoroughly tested for responsiveness and cross-browser compatibility, delivering a user-friendly platform that met the client’s vision and expectations.",
+      p2: null,
+    },
+    stack: "ReactJS, TypeScript, TailwindCSS, Express, Vite, Node.js",
+  },
+  {
+    id: "project-10",
+    title: "UX/UI designer portfolio",
+    imgSrc: "/images/uxui-portfolio.png",
+    github_link: "https://github.com/shadow16305/sanemuix",
+    site_link: "https://www.sanemuix.com/",
+    description: {
+      p1: "I was tasked with building a dynamic portfolio website for a client, based on a design they provided. The project involved creating multiple pages with dynamic routes, implementing complex UI elements, and incorporating a variety of animations to enhance user engagement. A key feature was a custom following cursor, adding an interactive and modern touch. The final product was a fully functional, visually captivating website that aligned perfectly with the client's design and objectives.",
+      p2: null,
+    },
+    stack: "NextJS, TypeScript, TailwindCSS, Framer-Motion",
+  },
 ];

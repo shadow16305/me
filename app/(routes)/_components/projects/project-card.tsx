@@ -22,7 +22,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       onClick={setActive}
       className={cn(
         "group flex w-full cursor-pointer flex-col rounded-3xl pb-4 ring-1 ring-neutral-950/10 transition-colors hover:bg-neutral-100",
-        title === "Uma-lab" ? "lg:w-[65%]" : "lg:w-[32%]",
+        title === "Uma-lab" || title === "UX/UI designer portfolio"
+          ? "lg:w-[65%]"
+          : "lg:w-[32%]",
       )}
     >
       <div className="flex w-full flex-col gap-4">
