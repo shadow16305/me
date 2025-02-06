@@ -58,7 +58,7 @@ export const socials = [
   },
   {
     text: "Telegram",
-    link: "https://t.me/Shadow163",
+    link: "https://t.me/chris163",
     iconLg: (
       <FaTelegram
         className="text-white transition-colors hover:text-neutral-300"
