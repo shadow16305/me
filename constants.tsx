@@ -189,15 +189,15 @@ export const projects = [
   },
   {
     id: "project-4",
-    title: "Uma-lab",
-    imgSrc: "/images/uma-lab.png",
-    github_link: "https://github.com/shadow16305/uma-lab",
-    site_link: "https://uma-lab.com.ua/",
+    title: "Titarenko Fit",
+    imgSrc: "/images/titarenko-fit.jpg",
+    github_link: "https://github.com/shadow16305/titarenko-fit",
+    site_link: "https://titarenko.fit",
     description: {
-      p1: "At Uma-lab, a digital marketing agency, I was entrusted with building their website in collaboration with a designer to create a dynamic, visually compelling online presence that effectively communicates the agency’s services and expertise. This resulted in a modern, engaging website that has significantly boosted Uma-lab's online visibility and client engagement.",
-      p2: "I continue to work with Uma-lab, developing websites for their current and future clients, ensuring that each site reflects the agency’s standards for innovation and functionality while meeting the evolving needs of their clients.",
+      p1: "I developed a full-stack e-learning platform for a client with user authentication, a custom admin panel for content management, Stripe integration for secure payments, and a personal client area where users can track progress. I also hosted the website on a VPS.",
+      p2: "The platform includes course watching with progress tracking, a dynamic blog section, I18n localization, and over 10 pages with dynamic routing. Collaborating with a UX/UI designer, I ensured a seamless and engaging user experience, delivering a scalable and efficient solution.",
     },
-    stack: "ReactJS, JavaScript, TailwindCSS, Framer-motion",
+    stack: "Next.js, TypeScript, PostgreSQL, PayloadCMS, Stripe, REST API, Node.js, TailwindCSS, I18n, Framer-motion",
   },
   {
     id: "project-5",
