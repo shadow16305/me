@@ -16,7 +16,9 @@ export const Experience = () => {
         <AccordionTrigger>
           <div className="space-x-2">
             <span>Scads</span>
-            <span className="text-sm text-neutral-400">Jan 2023 - Present</span>
+            <span className="text-sm text-neutral-400">
+              Sep 2023 - Oct 2024
+            </span>
           </div>
         </AccordionTrigger>
         <AccordionContent className="text-neutral-400">
@@ -45,7 +47,7 @@ export const Experience = () => {
           <div className="space-x-2">
             <span>Uma-lab</span>
             <span className="text-sm text-neutral-400">
-              Jul 2023 - Reccuring status
+              Jun 2022 - Apr 2023
             </span>
           </div>
         </AccordionTrigger>
