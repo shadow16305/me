@@ -57,15 +57,17 @@ export const ProjectDetails = ({
               ref={ref}
               className="flex h-full w-full max-w-[500px] flex-col overflow-hidden bg-white dark:bg-neutral-900 sm:rounded-3xl md:h-fit md:max-h-[95%]"
             >
-              <motion.div layoutId={`image-${active.title}-${id}`}>
+              <motion.div
+                layoutId={`image-${active.title}-${id}`}
+                className="relative h-80 w-full lg:h-80"
+              >
                 <Image
                   quality={100}
                   priority
-                  width={200}
-                  height={200}
+                  fill
                   src={active.imgSrc}
                   alt={active.title}
-                  className="h-80 w-full object-cover object-top sm:rounded-tl-lg sm:rounded-tr-lg lg:h-80"
+                  className="object-cover object-top sm:rounded-tl-lg sm:rounded-tr-lg"
                 />
               </motion.div>
               <div>
