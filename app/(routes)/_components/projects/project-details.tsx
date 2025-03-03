@@ -59,6 +59,7 @@ export const ProjectDetails = ({
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <Image
+                  quality={100}
                   priority
                   width={200}
                   height={200}
